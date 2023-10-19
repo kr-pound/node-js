@@ -24,7 +24,7 @@ async function createCourse() {
     const course2 = new Course({
         name: 'Angular Course',
         author: 'Mosh',
-        tags: ['angular', 'backend'],
+        tags: ['angular', 'frontend'],
         isPublished: true
     });
 
