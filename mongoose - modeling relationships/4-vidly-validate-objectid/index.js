@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 const genres = require('./routes/genres');
 const customers = require('./routes/customers');
 const movies = require('./routes/movies');
-const rentals = require('./routes/rental');
+const rentals = require('./routes/rentals');
 
 // Middleware
 app.use(express.json());
